@@ -1,0 +1,377 @@
+/*------------------------------------ CSS INITIAL -------------------------------------- */
+
+:root{
+  --bgHover:#9dbf10;
+  --colorT:#72327C;
+  --colorP:#4a4a4a;
+  --colorST:#d8d8d8;
+  --bgf:#4b4a4a;
+}
+h1{
+   font-size: 36px;
+   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;       color: var(--colorT);
+   letter-spacing: -0.67px;
+   text-align: center;
+   font-weight: 500;
+   line-height: 1.2;
+   margin-top:3rem;
+}
+h2{
+  text-align: center;
+  font-size:1.5rem;
+  margin-top:1.8rem;
+}
+h3{
+  font-family: avenirNextMedium;
+  font-size: 15px;
+  color: var(--colorST);
+  margin-top: -3  rem;
+  text-align:left;
+}
+h6{
+  font-size: 13px;
+  text-align:left;
+}
+
+h5{
+  font-size: 15px;
+  text-align:left;
+}
+a{
+  color: var(--colorST);
+  text-decoration-color: var(--colorST);
+   
+}
+a:hover{
+  color: var(--colorST);
+}
+
+p{
+  color:  var(--colorP);
+  font-size: 22px;
+  font-family: avenirNext;
+  letter-spacing: -.45px;
+  text-align: left;
+  margin-left: 2rem;
+}
+@media screen and (max-width: 760px) {
+  h1{
+    font-size: 25px !important;
+  }
+  
+}
+/*
+
+*/
+/*------------------------------------  HOC Start -------------------------------------- */
+#imageSection-img{
+  width: 120%;
+} 
+ 
+input{
+  border-right: 3px solid #a94442 !important;
+  overflow: visible;
+  display: block;
+  width: 85%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin-top: 2rem;
+  }
+#button{
+  background-color: #ea771c;
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: -.6px;
+  cursor: pointer;
+  font-family: avenirNextDemi;
+  border:#ea771c 1px solid;
+  border-radius: 0.25rem;
+  padding: 0.375rem 0.75rem;
+  display: block;
+  width: 85%;
+  margin-left: 2.4rem;
+  
+
+  
+}
+form{
+  margin-left: 3rem;
+}
+label{
+   color: #72327c;
+  font-size: 21px;
+  letter-spacing: -.45px;
+  margin-top: 2rem;
+    float: left;
+}
+.content-form{
+  display: flex;
+  flex-direction: row;
+ }
+@media screen and (max-width:1500px) {
+
+    .content-form{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+       
+    }
+ 
+  
+}
+.input-section{
+  width: 100%;
+  float:right
+}
+.label-section{
+  width: 17rem;
+}
+/*------------------------------------  HOC End ----------------------------------------- */
+/*
+
+
+*/
+/* ---------------------------------- Navbar Start --------------------------------------- */
+.logo{
+  max-width: 85%;
+  height: 50%;
+  margin-left: -26rem;
+  
+}
+ #navbar-col{
+   display: flex;
+   justify-content: center;
+ }
+ul{
+ display: flex;
+ list-style: none;
+ padding: 15px;
+ color: var(--colorP);
+ font-family: avenirNext;
+ font-size: 17px;
+ letter-spacing: -0.45px;
+
+}
+
+li{
+  padding: 30px;
+  text-decoration: none !important;
+  list-style: none;
+  color: var(--colorP);
+
+ }
+
+li:hover{
+ color:var(--bgHover)!important;
+ border-radius: 8px;
+ text-decoration: none;
+}
+ 
+#show{
+  display:none
+}
+
+#responsive-navbar-btn{
+  display:none;
+}
+
+#responsive-navbar-btn-section{
+  display:none;
+}
+
+#responsive-navbar-section{
+  margin-top:2rem
+}
+
+@media screen and (max-width:1280px) {
+  #navbar{
+    display: none;
+  }
+  #show{
+    display: block;
+  }
+  #responsive-navbar-btn{
+    display:block;
+    float: right;
+    width:50px;
+    height:50px;
+    border: var(--colorP) solid 1.5px;
+    border-radius: 15px;
+    padding: 10px;
+   }
+   #responsive-navbar-btn-section{
+     display: block;
+     background-color: #e2e2e2b0;
+     height: 4rem;
+     padding: 5px;
+
+   }
+  }
+  
+#responsive-logo-section{
+  display: flex;
+  justify-content: center ; 
+}
+
+#responsive-logo{
+  max-width: 10%;
+  height: auto;
+}
+ 
+#responsive-list-section{
+  display: flex;
+  justify-content: center;
+}
+
+#responsive-list{
+  display: flex;
+  flex-direction:column;
+  text-align: center;
+}
+
+#responsive-li{
+  border-radius: 35px;
+}
+
+#responsive-li::hover{
+  background-color:#9dbf10!important;
+  color: white;
+}
+/* ------------------------------- Navbar End ------------------------------------ */
+/*
+
+*/
+/* ------------------------- description section Start --------------------------- */
+ 
+
+ 
+
+ #description-content-img{
+ width: 50%;
+ margin-top: -4rem;
+   }
+
+@media screen and (min-width: 992px) {
+  
+  #description-content-img{
+    width: 50%;
+      }
+    
+}
+/* ------------------------- description section end --------------------------- */
+/*
+
+*/
+/* ------------------------- product section Start ---------------------------- */
+.products{
+  display:flex;
+  justify-content: center;
+}
+.card{
+  margin-top: 4rem;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+.card-img{
+width: 80%;
+margin-left:2.8rem;
+}
+.card-p  {
+    color:  var(--colorP);
+    font-size: 18px;
+    font-family: avenirNext;
+    letter-spacing: -.45px;
+    text-align: center;
+    margin-right: 4.5rem;
+} 
+/* ------------------------- product section End ---------------------------- */
+/*
+
+*/
+/* ------------------------- Partenaires section Start ---------------------- */
+#partenaire-section{
+  display: flex;
+
+justify-content: center;} 
+#first-img{
+  width: 35%;
+ }
+#partenaire-img{
+ width: 30%;
+ height:80%;
+ border-radius: 8%;
+}
+/* ------------------------- Partenaires section End ---------------------- */
+/*
+
+*/
+
+.service-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+#service-icons{
+  margin-left:4.5rem;
+  width: 9rem;
+}
+@media screen and (max-width:995px) {
+  #service-icons{
+    margin-left:10rem;
+    
+  }
+  
+}
+ 
+ 
+#service-titles{
+  color: #814a89;
+  font-size: 24px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: avenirNext;
+
+}
+/* ------------------------- Footer Start --------------------------------- */
+.footer{
+  background-color: var(--bgf);
+  color: var(--colorST);
+  padding:4rem;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+  border-top:  red solid 2px !important ;
+   margin-top:10rem;
+   
+ }
+
+.footer-col{
+   text-align: center;
+}
+.icons-section{
+padding:10px;
+margin-left: -3rem;
+text-align:left;
+}
+#icons{
+  margin-left: 1.8rem;
+  color: var(--colorST);
+}
+#icons:hover{
+  color:white;
+}
+ 
+#copy-right-text{
+  color: white;
+  margin-top: 6rem;
+  
+}
+
+ 
